@@ -1,7 +1,7 @@
 import { ARROW_LENGTH, TOOL_ITEMS } from "../constants";
 import getStroke from "perfect-freehand";
 
-import rough from "roughjs/bin/rough";
+import rough from "roughjs";
 import { getArrowHeadsCoordinates, isPointCloseToLine } from "./math";
 
 const gen = rough.generator();
